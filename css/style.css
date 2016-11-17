@@ -1,0 +1,112 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes opacityMenuAnimation {
+  from {
+    top: -50; }
+  to {
+    top: 0; } }
+/* Standard syntax */
+@keyframes opacityMenuAnimation {
+  from {
+    top: -50; }
+  to {
+    top: 0; } }
+body {
+  background-image: url(http://trv-checkin.s3-eu-central-1.amazonaws.com/wp-content/uploads/sites/12/2014/12/londres.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
+  body section.weather article.column-2 {
+    background: rgba(0, 0, 0, 0.7);
+    max-height: 300px;
+    overflow: scroll;
+    margin: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.7);
+    color: #fff;
+    font-size: 12px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif; }
+  body section.weather article.column-1 {
+    background: "none";
+    max-height: 300px;
+    overflow: scroll;
+    margin: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.7); }
+  body section.weather aside.aside {
+    background: rgba(255, 255, 255, 0.9);
+    max-height: 300px;
+    overflow: scroll;
+    margin: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.7);
+    color: #393939;
+    font-size: 12px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+    padding: 0 10px; }
+  body section.weather h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); }
+  body section.weather h3.temp_actual {
+    color: #fff;
+    font-size: 72px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); }
+  body header.weather h2 {
+    color: #fff;
+    font-size: 24px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); }
+  body header.weather h6 {
+    color: #fff;
+    font-size: 12px;
+    font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); }
+  body #header_top {
+    background-color: rgba(0, 0, 0, 0.7); }
+    body #header_top.active {
+      z-index: 10;
+      clear: both;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      -webkit-animation-name: opacityMenuAnimation;
+      -webkit-animation-duration: 0.5s;
+      animation-name: opacityMenuAnimation;
+      animation-duration: 0.5s; }
+    body #header_top .row {
+      margin: 0;
+      padding: 0; }
+    body #header_top h1 {
+      color: #fff;
+      font-size: 20px;
+      font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      display: block;
+      margin-top: 25px; }
+    body #header_top span {
+      color: #fff;
+      font-size: 12px;
+      font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); }
+    body #header_top .input_search {
+      color: #393939;
+      font-size: 14px;
+      font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+      padding: 10px;
+      margin: 15px 0;
+      width: 100%; }
+    body #header_top .button_search {
+      color: #fff;
+      font-size: 12px;
+      font-family: HelveticaNeue-Light,"Helvetica Neue",HelveticaNeue,helvetica,arial,sans-serif;
+      border-radius: 5px;
+      border: none;
+      margin: 15px 0;
+      padding: 15px;
+      background-color: rgba(66, 73, 163, 0.9); }
+    body #header_top #user_image, body #header_top #facebook_image {
+      height: 50px;
+      margin: 15px; }
+
+/*# sourceMappingURL=style.css.map */
